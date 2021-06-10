@@ -1,0 +1,16 @@
+C:\Users\mplbr\DigitalInnovationOne\DIO.bank\DIO.bank\bin\Debug\net5.0\DIO.bank.exe
+C:\Users\mplbr\DigitalInnovationOne\DIO.bank\DIO.bank\bin\Debug\net5.0\DIO.bank.deps.json
+C:\Users\mplbr\DigitalInnovationOne\DIO.bank\DIO.bank\bin\Debug\net5.0\DIO.bank.runtimeconfig.json
+C:\Users\mplbr\DigitalInnovationOne\DIO.bank\DIO.bank\bin\Debug\net5.0\DIO.bank.runtimeconfig.dev.json
+C:\Users\mplbr\DigitalInnovationOne\DIO.bank\DIO.bank\bin\Debug\net5.0\DIO.bank.dll
+C:\Users\mplbr\DigitalInnovationOne\DIO.bank\DIO.bank\bin\Debug\net5.0\ref\DIO.bank.dll
+C:\Users\mplbr\DigitalInnovationOne\DIO.bank\DIO.bank\bin\Debug\net5.0\DIO.bank.pdb
+C:\Users\mplbr\DigitalInnovationOne\DIO.bank\DIO.bank\obj\Debug\net5.0\DIO.bank.csprojAssemblyReference.cache
+C:\Users\mplbr\DigitalInnovationOne\DIO.bank\DIO.bank\obj\Debug\net5.0\DIO.bank.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mplbr\DigitalInnovationOne\DIO.bank\DIO.bank\obj\Debug\net5.0\DIO.bank.AssemblyInfoInputs.cache
+C:\Users\mplbr\DigitalInnovationOne\DIO.bank\DIO.bank\obj\Debug\net5.0\DIO.bank.AssemblyInfo.cs
+C:\Users\mplbr\DigitalInnovationOne\DIO.bank\DIO.bank\obj\Debug\net5.0\DIO.bank.csproj.CoreCompileInputs.cache
+C:\Users\mplbr\DigitalInnovationOne\DIO.bank\DIO.bank\obj\Debug\net5.0\DIO.bank.dll
+C:\Users\mplbr\DigitalInnovationOne\DIO.bank\DIO.bank\obj\Debug\net5.0\ref\DIO.bank.dll
+C:\Users\mplbr\DigitalInnovationOne\DIO.bank\DIO.bank\obj\Debug\net5.0\DIO.bank.pdb
+C:\Users\mplbr\DigitalInnovationOne\DIO.bank\DIO.bank\obj\Debug\net5.0\DIO.bank.genruntimeconfig.cache
