@@ -13,7 +13,7 @@ namespace DIO.Bank
 
         public Conta(TipoConta tipoConta, double saldo, double credito, string nome) 
         {
-            this.tipoConta = tipoConta;
+                this.tipoConta = tipoConta;
                 this.Saldo = saldo;
                 this.Credito = credito;
                 this.Nome = nome;
@@ -23,7 +23,8 @@ namespace DIO.Bank
        public bool Sacar (double valorSaque)
        {
            //validação de saldo suficiente
-           if (this.Saldo - valorSaque < (this.Credito * -1)){
+           if (this.Saldo - valorSaque < (this.Credito * -1))
+           {
                Console.WriteLine("Saldo insuficiente");
                return false;
            } 
@@ -59,11 +60,11 @@ namespace DIO.Bank
             retorno += "TipoConta" + this.tipoConta + " | ";
             retorno += "Nome" + this.Nome + " | ";
             retorno += "Saldo" + this.Saldo + " | ";
-            retorno += "Crédito" + this.Credito;
+            retorno += "Crédito" + this.Credito + " | ";
             return retorno;
         }
        
-        } 
+      } 
     }
 
     

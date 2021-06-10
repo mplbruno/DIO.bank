@@ -7,6 +7,7 @@ namespace DIO.bank
     class Program
     {
         static List<Conta> listContas = new List<Conta>();
+
         static void Main(string[] args)
         {
             string opcaoUsuario = ObterOpcaoUsuario();
@@ -54,10 +55,10 @@ namespace DIO.bank
 
         private static void Transferir()
         {
-             Console.Write("Digite o número da conta de origem: ");
+             Console.WriteLine("Digite o número da conta de origem: ");
             int indiceContaOrigem = int.Parse(Console.ReadLine()); 
 
-             Console.Write("Digite o número da conta de destino: ");
+             Console.WriteLine("Digite o número da conta de destino: ");
             int indiceContaDestino = int.Parse(Console.ReadLine()); 
 
             Console.Write("Digite o valor a ser transferido: ");
@@ -68,10 +69,10 @@ namespace DIO.bank
 
         private static void Sacar()
         {
-            Console.Write("Digite o número da conta: ");
+            Console.WriteLine("Digite o número da conta: ");
             int indiceConta = int.Parse(Console.ReadLine()); 
 
-            Console.Write("Digite o valor a ser sacado: ");
+            Console.WriteLine("Digite o valor a ser sacado: ");
             double valorSaque = double.Parse(Console.ReadLine()); 
 
              listContas[indiceConta].Sacar(valorSaque);
@@ -79,32 +80,29 @@ namespace DIO.bank
 
         private static void Depositar()
         {
-           Console.Write("Digite o número da conta: ");
+           Console.WriteLine("Digite o número da conta: ");
             int indiceConta = int.Parse(Console.ReadLine()); 
 
-            Console.Write("Digite o valor a ser depositado: ");
-            double valorSaque = double.Parse(Console.ReadLine()); 
+            Console.WriteLine("Digite o valor a ser depositado: ");
+            double valorDeposito = double.Parse(Console.ReadLine()); 
 
-             listContas[indiceConta].Depositar(valorSaque);
+             listContas[indiceConta].Depositar(valorDeposito);
         }
 
          private static void InserirConta()
         {
             Console.WriteLine("Inserir nova conta");
 
-            Console.Write("Digite 1 para conta Fisica ou 2 para Juridica: ");
+            Console.WriteLine("Digite 1 para conta Fisica ou 2 para Juridica: ");
             int entradaTipoConta = int.Parse(Console.ReadLine()); 
 
-            Console.Write("Digite o número da conta: ");
-            int indiceConta = int.Parse(Console.ReadLine()); 
-
-            Console.Write("Digite o nome do cliente: ");
+            Console.WriteLine("Digite o nome do cliente: ");
             string entradaNome = Console.ReadLine();
               
-            Console.Write("Digite o saldo inicial: ");
+            Console.WriteLine("Digite o saldo inicial: ");
             double entradaSaldo = double.Parse(Console.ReadLine()); 
 
-            Console.Write("Digite o crédito: ");
+            Console.WriteLine("Digite o crédito: ");
             double entradaCredito = double.Parse(Console.ReadLine());
 
             Conta novaConta = new Conta(tipoConta: (TipoConta) entradaTipoConta,
@@ -118,6 +116,7 @@ namespace DIO.bank
         private static void ListarContas()
         {
             Console.WriteLine("Listar contas");
+            
         if (listContas.Count == 0)
         {
            Console.WriteLine("Nenhuma conta cadastrada."); 
